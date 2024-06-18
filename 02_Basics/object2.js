@@ -55,11 +55,46 @@ const users = [
 users[1].email
 
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+
+//de structure of object and json'
+
+
+const course = 
+{
+    coursename: "javascript",
+    price: "999",
+    rating: "4.5"
+}
+
+console.log(course);
+
+const {coursename} = course
+const {price:p} = course
+
+console.log(coursename);
+console.log(p);
+
+//json in object format
+
+
+// {
+//     name: "pratik",
+//     age: "21",
+//     address: "shirdi"
+// }
+
+//can be in array format also
+
+[
+    {},
+    {}, 
+    {}
+]
