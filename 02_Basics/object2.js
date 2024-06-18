@@ -82,7 +82,7 @@ const {price:p} = course
 console.log(coursename);
 console.log(p);
 
-//json in object format
+//json in object format 
 
 
 // {
