@@ -1,0 +1,46 @@
+<!-- //setTimeOUt and clearTimeout -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brower Api</title>
+</head>
+<body style="background-color: black; color: white  ;">
+    <h1 class="h1">Pratik Dharam</h1>
+    <button class="stoph1" style="width: 120px; height: 70px; background-color: rgb(64, 129, 187);">stoph1</button>
+    <button class="stop" style="width: 120px; height: 70px; background-color: rgb(64, 129, 187);">Stop</button>
+</body>
+
+<script>
+    // let sayMyName = function(){
+    //     console.log("Pratik");
+    // }
+    // let stopTimeout = setTimeout(sayMyName,4000)
+
+    // const stop = document.querySelector('.stop');
+    // stop.addEventListener('click',function(){
+    //     clearTimeout(stopTimeout)
+    //     console.log("TimeoutStopped");
+    // })
+
+    let changeH1 = function(){
+        let h1 = document.querySelector('h1')
+        h1.innerHTML = "Dharam Pratik"
+    }
+
+    let stopTimeoutH1 = setTimeout(changeH1,3000)
+
+    const stoph1 = document.querySelector('.stoph1');
+    stoph1.addEventListener('click',function(){
+        clearTimeout(stopTimeoutH1)
+        console.log("TimeoutStoppedH1");
+    })
+
+    
+
+
+
+</script>
+</html>
